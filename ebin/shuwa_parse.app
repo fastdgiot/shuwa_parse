@@ -1,0 +1,11 @@
+{application,shuwa_parse,
+             [{description,[25968,34521,80,97,114,115,101,26381,21153]},
+              {vsn,"4.0.0"},
+              {modules,[shuwa_livequery,shuwa_livequery_sup,
+                        shuwa_livequery_work,shuwa_parse,shuwa_parse_app,
+                        shuwa_parse_livequery,shuwa_parse_loader,
+                        shuwa_parse_loader_sup,shuwa_parse_server,
+                        shuwa_parse_sup]},
+              {registered,[shuwa_parse_sup]},
+              {applications,[kernel,stdlib,websocket_client,shuwa_framework]},
+              {mod,{shuwa_parse_app,[]}}]}.
